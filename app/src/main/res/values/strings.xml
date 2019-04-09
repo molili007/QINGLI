@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">one</string>
+    <drawable name="clr_normal">#4699df</drawable>
+    <drawable name="clr_pressed">#0073CF</drawable>
+    <string name="menu_tap">主页</string>
+    <string name="menu_my">我的</string>
+</resources>

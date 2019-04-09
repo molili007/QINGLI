@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:state_focused="false" android:state_pressed="false">
+            <layer-list >
+        <item>
+            <shape>
+                <solid android:color="#4699df" />
+                <corners android:radius="15px"/>
+    <!--            <stroke android:width="1px" android:color="#4699df"/>-->
+            </shape>
+        </item>
+         
+           </layer-list>
+        </item>
+        <item android:state_pressed="true"> <!--  pressed -->
+            <layer-list >
+            <item>
+                <shape>
+                    <solid android:color="#0073CF" />
+                    <corners android:radius="15px"/>
+        <!--            <stroke android:width="1px" android:color="#0073CF"/>-->
+                </shape>
+            </item>
+             
+               </layer-list>
+            
+        </item>
+          
+         <item android:state_focused="true"> <!-- focused -->
+             <layer-list >
+            <item>
+                <shape>
+                    <solid android:color="#4699df" />
+                    <corners android:radius="15px"/>
+        <!--            <stroke android:width="1px" android:color="#4699df"/>-->
+                </shape>
+            </item>
+             
+               </layer-list>
+            
+        </item>
+</selector>
