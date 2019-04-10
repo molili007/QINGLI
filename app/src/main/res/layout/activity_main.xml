@@ -25,7 +25,7 @@
     <ImageView
         android:layout_width="fill_parent"
         android:layout_height="213dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="45dp"
         android:background="@drawable/xuejing"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
